@@ -47,7 +47,7 @@ void customString()
 
 	cout << "\nEnter String: ";
 	string str;
-	cin >> str;
+	std::getline(std::cin>>std::ws, str);
 	cout << "\nCHOOSE HASHER:\n";
 	cout << "1) SHA224\n";
 	cout << "2) SHA256\n";
